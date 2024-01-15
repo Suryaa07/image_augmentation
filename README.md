@@ -1,8 +1,10 @@
-**Repository Description:**
+#Image Augmentation
+
+## Repository Description:
 
 Welcome to the RBM Feature Extraction for MNIST project! This repository showcases the application of a Restricted Boltzmann Machine (RBM) for feature extraction from the MNIST dataset. MNIST is a collection of 28x28 pixel grayscale images of handwritten digits (0 through 9). The RBM is employed to transform raw pixel values into a compact set of features, enhancing the dataset for subsequent machine learning tasks.
 
-**How it Works:**
+## How it Works:
 
 1. **MNIST Dataset Loading:**
    - The MNIST dataset is fetched using scikit-learn's `fetch_openml` function, providing pixel values (`data`) and corresponding digit labels (`target`).
@@ -19,7 +21,7 @@ Welcome to the RBM Feature Extraction for MNIST project! This repository showcas
 5. **Feature Transformation:**
    - The trained RBM is utilized to transform both training and testing data into a reduced set of features (`train_features` and `test_features`).
 
-**Prerequisites:**
+## Prerequisites:
 
 Ensure you have the required libraries installed:
 
